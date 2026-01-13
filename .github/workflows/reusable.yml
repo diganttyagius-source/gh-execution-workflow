@@ -1,0 +1,8 @@
+name: Continue Website Deployment
+on: workflow_call
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Deploy jobs:"
+        run: echo "Deploying..."
